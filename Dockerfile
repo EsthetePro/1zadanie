@@ -1,5 +1,5 @@
 FROM continuumio/miniconda3
-LABEL maintainer="biohazard100000@gmail.com"
+LABEL maintainer="men02072000@gmail.com"
 COPY . /tmp/
 RUN conda env create -f /tmp/environment.yml
 # Pull the environment name out of the environment.yml
